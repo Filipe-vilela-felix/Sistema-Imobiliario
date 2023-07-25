@@ -1,0 +1,117 @@
+#planos .check {
+    color:var(--primary);
+}
+#planos .botao-plano {
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
+#planos .botao-plano:hover {
+    color: white;
+    background-color: var(--primary);
+}
+
+#planos .borda-planos {
+    border-radius: 15px;
+}
+
+#outros-servicos .borda-servicos {
+    border-radius: 8px;
+}
+
+#outros-servicos .espacamento {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+
+#outros-servicos .borda-servicos:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 15px;
+}
+
+#outros-servicos .botao-nao-promova {
+    color: var(--link-useBroker) !important;
+    border-color: var(--link-useBroker) !important;
+}
+
+#outros-servicos .botao-nao-promova:hover {
+    color: white !important;
+    background-color: var(--link-useBroker) !important;
+}
+
+#outros-servicos .botao-enviar {
+    color: white;
+    background-color: var(--primary);
+}
+
+#outros-servicos .botao-enviar:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#outros-servicos .resp-valor {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+}
+
+#planos .img-planos {
+    width: 80px !important;
+}
+
+/*RESPONSIVIDADE*/
+@media (max-width: 991px) {
+    #planos .txt-planos {
+        padding-left: 0px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    #planos .txt-planos-3 {
+        padding-left: 130px !important;
+    }
+}
+
+@media (max-width: 575px) {
+    #planos .txt-planos-1-2 {
+        padding-left: 130px !important;
+    }
+
+    #outros-servicos .resp-valor {
+        text-align: left !important;
+        padding-top: 0px !important;
+        padding-left: 23px !important;
+    }
+}
+
+@media (max-width: 500px) {
+    #planos .txt-planos-geral {
+        padding-left: 100px !important;
+    } 
+}
+
+@media (max-width: 434px) {
+    #planos .txt-planos-geral {
+        padding-left: 80px !important;
+    }
+}
+
+@media (max-width: 392px) {
+    #planos .txt-planos-geral {
+        padding-left: 60px !important;
+    }
+}
+
+@media (max-width: 341px) {
+    #planos .txt-planos-geral {
+        padding-left: 40px !important;
+    }
+}
+
+@media (max-width: 300px) {
+    #planos .txt-planos-geral {
+        padding-left: 20px !important;
+    }
+}
+/*FIM RESPONSIVIDADE*/

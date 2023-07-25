@@ -1,0 +1,546 @@
+#adicionar-propriedade .icon {
+    width: 20px;
+    height: 20px;
+    color:var(--primary);
+}
+
+#adicionar-propriedade .borda-geral {
+    border-radius: 15px !important;
+}
+
+#adicionar-propriedade .botao-visualizacao {
+    color: var(--link-useBroker) !important;
+    border-color: var(--link-useBroker) !important;
+}
+
+#adicionar-propriedade .botao-visualizacao-2 {
+    color: var(--link-useBroker) !important;
+    border-color: var(--link-useBroker) !important;
+}
+
+#adicionar-propriedade .botao-visualizacao:hover {
+    color: white !important;
+    background-color: var(--link-useBroker) !important;
+}
+
+#adicionar-propriedade .botao-visualizacao-2:hover {
+    color: white !important;
+    background-color: var(--link-useBroker) !important;
+}
+
+#adicionar-propriedade .botao-salvar-continuar {
+    color: white !important;
+    background-color: var(--primary);
+}
+
+#adicionar-propriedade .botao-salvar-continuar-2 {
+    color: white !important;
+    background-color: var(--primary);
+}
+
+#adicionar-propriedade .botao-salvar-continuar:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#adicionar-propriedade .botao-salvar-continuar-2:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+#adicionar-propriedade .obrigatorio{
+    color: var(--danger);
+}
+
+#detalhes-propriedade .quantidade {
+    color: var(--primary);
+}
+
+#detalhes-propriedade .quantidade:hover {
+    color:var(--link-useBroker);
+    border-radius: 100% !important;
+    background-color: var(--primary-opacity) !important;
+}
+
+#picture__input {
+    display: none;
+}
+/*
+#docAqui .picture {
+    width: 1090px;
+    height: 250px;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    border-color: #ffc0c0;
+    cursor: pointer;
+}
+*/
+#docAqui .picture__image {
+    max-width: 380px;
+    max-height: 200px;
+    border-radius: 12px 20px 20px 15px;
+    padding-right: 10px;
+}
+
+#adicionar-propriedade .justify-content-between {
+    justify-content: space-between !important;
+}
+
+#docAqui .titulo-ft-video {
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+/*RESPONSIVIDADE*/
+@media (max-width: 2560px) {
+    #docAqui .picture {
+        width: 1270px;
+        height: 250px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        border: 1px dashed;
+        border-color: #ffc0c0;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 1399px) {
+    #docAqui .picture {
+        width: 1080px;
+        height: 250px;
+        box-sizing: content-box;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        border: 1px dashed;
+        border-color: #ffc0c0;
+        cursor: pointer;
+        padding-left: 20px;
+    }
+
+    #docAqui .picture::before {
+        width: 1080px;
+        height: 400px;
+        box-sizing: content-box;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        border: 1px dashed;
+        border-color: #ffc0c0;
+        cursor: pointer;
+        padding-left: 20px;
+    }
+}
+
+@media (max-width:1366px) {
+    #adicionar-propriedade .tamanho-mapa {
+        width: 1200px;
+    }
+}
+
+@media (max-width: 1199px) {
+    #docAqui .picture {
+        width: 910px;
+        height: 250px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        border: 1px dashed;
+        border-color: #ffc0c0;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 991px) {
+    #docAqui .picture {
+        width: 660px;
+        height: 250px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        border: 1px dashed;
+        border-color: #ffc0c0;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 767px) {
+    #detalhes-propriedade .facilidades {
+        font-size: 10%;
+    }
+
+    #docAqui .picture {
+        width: 480px;
+        height: 250px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        border: 1px dashed;
+        border-color: #ffc0c0;
+        cursor: pointer;
+    }
+/*
+    #detalhes-propriedadade .botao-visualizacao-resp {
+        position: center;
+    }
+*/    
+}
+
+@media (min-width: 576px) {
+    #adicionar-propriedade .linha-final-2 {
+        display: none;
+    }
+}
+
+@media (max-width: 575px) {
+    #detalhes-propriedade .facilidades {
+        font-size: 15px;
+    }
+
+    #docAqui .picture {
+        width: 510px;
+        height: 250px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        border: 1px dashed;
+        border-color: #ffc0c0;
+        cursor: pointer;
+    }
+    
+    #adicionar-propriedade .linha-final{
+        display: none;
+    }
+}
+
+@media (max-width: 568px) {
+    #docAqui .picture {
+        width: 500px;
+        height: 250px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        border: 1px dashed;
+        border-color: #ffc0c0;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 550px) {
+    #docAqui .picture {
+        width: 480px;
+        height: 250px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        border: 1px dashed;
+        border-color: #ffc0c0;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 548px) {
+    #docAqui .picture {
+        width: 480px;
+        height: 250px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        border: 1px dashed;
+        border-color: #ffc0c0;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 546px) {
+    #docAqui .picture {
+        width: 480px;
+        height: 250px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        border: 1px dashed;
+        border-color: #ffc0c0;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 536px) {
+    #docAqui .picture {
+        width: 460px;
+        height: 250px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        border: 1px dashed;
+        border-color: #ffc0c0;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 527px) {
+    #docAqui .picture {
+        width: 460px;
+        height: 250px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        border: 1px dashed;
+        border-color: #ffc0c0;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 524px) {
+    #docAqui .picture {
+        width: 448px;
+        height: 250px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        border: 1px dashed;
+        border-color: #ffc0c0;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 518px) {
+    #docAqui .picture {
+        width: 460px;
+        height: 250px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        border: 1px dashed;
+        border-color: #ffc0c0;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 500px) {
+    #docAqui .picture {
+        width: 435px;
+        height: 250px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        border: 1px dashed;
+        border-color: #ffc0c0;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 483px) {
+    #docAqui .picture {
+        width: 420px;
+        height: 250px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        border: 1px dashed;
+        border-color: #ffc0c0;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 465px) {
+    #docAqui .picture {
+        width: 405px;
+        height: 250px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        border: 1px dashed;
+        border-color: #ffc0c0;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 460px) {
+    #docAqui .picture {
+        width: 400px;
+        height: 250px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        border: 1px dashed;
+        border-color: #ffc0c0;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 434px) {
+    #docAqui .picture {
+        width: 370px;
+        height: 250px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        border: 1px dashed;
+        border-color: #ffc0c0;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 417px) {
+    #docAqui .picture {
+        width: 350px;
+        height: 250px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        border: 1px dashed;
+        border-color: #ffc0c0;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 397px) {
+    #docAqui .picture {
+        width: 335px;
+        height: 250px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        border: 1px dashed;
+        border-color: #ffc0c0;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 383px) {
+    #docAqui .picture {
+        width: 320px;
+        height: 250px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        border: 1px dashed;
+        border-color: #ffc0c0;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 367px) {
+    #docAqui .picture {
+        width: 300px;
+        height: 250px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        border: 1px dashed;
+        border-color: #ffc0c0;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 347px) {
+    #docAqui .picture {
+        width: 280px;
+        height: 250px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        border: 1px dashed;
+        border-color: #ffc0c0;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 327px) {
+    #docAqui .picture {
+        width: 260px;
+        height: 250px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        border: 1px dashed;
+        border-color: #ffc0c0;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 307px) {
+    #docAqui .picture {
+        width: 240px;
+        height: 250px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        border: 1px dashed;
+        border-color: #ffc0c0;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 287px) {
+    #docAqui .picture {
+        width: 220px;
+        height: 250px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        border: 1px dashed;
+        border-color: #ffc0c0;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 267px) {
+    #docAqui .picture {
+        width: 200px;
+        height: 250px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        border: 1px dashed;
+        border-color: #ffc0c0;
+        cursor: pointer;
+    }
+}
+
+@media (max-width: 235px) {
+    #docAqui .picture {
+        width: 180px;
+        height: 250px;
+        display: block;
+        align-items: center;
+        justify-content: center;
+        border-radius: 15px;
+        border: 1px dashed;
+        border-color: #ffc0c0;
+        cursor: pointer;
+    }
+}
+/*FIM RESPONSIVIDADE*/
